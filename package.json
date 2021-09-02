@@ -1,0 +1,37 @@
+{
+  "name": "odoc",
+  "version": "0.1.1",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "dev": "cd odoc && cd generators && node setup.js && cd ../../ && next dev",
+    "build": "cd odoc && cd generators && node setup.js && cd ../../ && next build",
+    "start": "cd odoc && cd generators && node setup.js && cd ../../ && next start",
+    "generate": "cd odoc && cd generators && node setup.js && cd ../../"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@next/mdx": "^11.1.2",
+    "@types/node": "^16.7.10",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^17.0.19",
+    "@zeit-ui/react": "^1.8.1",
+    "axios": "^0.21.1",
+    "execa": "^5.1.1",
+    "github-markdown-css": "^4.0.0",
+    "listr": "^0.14.3",
+    "next": "11.1.2",
+    "nprogress": "^0.2.0",
+    "prism-react-renderer": "^1.2.1",
+    "qrcode.react": "^1.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.39.0",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@geist-ui/react": "^2.2.0",
+    "@geist-ui/react-icons": "^1.0.1"
+  }
+}
